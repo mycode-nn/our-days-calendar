@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f4">
+  <title>两人日历 · 一起记录生活</title>
+  <meta name="description" content="公开浏览日历，注册后私密记录经期、亲密时刻、专注生活与每日感受，并邀请伴侣共享。">
+  <!-- CSS -->
+</head>
+<body>
+  <div class="shell">
+    <header class="top"><div class="brand"><div class="brand-icon">♡</div><span>两人日历</span></div><div class="top-right"><span class="top-note">每一天，都值得认真记录</span><button class="language-button" id="languageButton" type="button" title="语言设置">中文</button><button class="avatar" id="profileButton" title="编辑个人资料">我</button></div></header>
+    <section class="hero"><div><div class="eyebrow">OUR DAYS, OUR STORY</div><h1>把日子，过成我们的故事。</h1><p>记录身体的变化、亲密的时刻，和专注生活的每一天。</p></div><div class="pair-pill"><span class="pair-dot"></span><span id="pairState">正在连接…</span></div></section>
+    <div id="root" class="loading">正在打开日历…</div>
+    <footer class="footer">游客只能看到空白日历。登录后，标记、备注和经期预测默认仅自己可见；你可选择与已配对伴侣共享。排卵期为日历估算，不能作为避孕依据。</footer>
+  </div>
+  <div id="modalRoot"></div><div id="toastRoot"></div>
+  <!-- JS -->
+</body>
+</html>
